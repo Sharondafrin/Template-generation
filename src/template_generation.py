@@ -21,7 +21,7 @@ class TemplateGeneration:
     def __init__(
             self, tolerance=0.1, confidence_score=0.7, img_extension='.jpg',  max_pages=4,
     ):
-        self.retina_url = 'http://127.0.0.1:3030/detect'
+        self.retina_url = 'http://server-name:port/endpoint-name'
         self.tolerance = tolerance
         self.confidence_score = confidence_score
         self.img_extension = img_extension
